@@ -1,0 +1,26 @@
+{
+  "name": "bind-zone-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadyazdanii/bind-zone-manager.git"
+  },
+  "keywords": [
+    "zone",
+    "dns",
+    "zonefile",
+    "bind",
+    "bind9"
+  ],
+  "author": "Ahmad Yazdani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmadyazdanii/bind-zone-manager/issues"
+  },
+  "homepage": "https://github.com/ahmadyazdanii/bind-zone-manager#readme"
+}
