@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        /* Language and Environment */
+        "module": "commonjs",
+        "target": "es2018",
+        "types": ["@types/jest", "@types/node"],
+
+        /* Modules */
+        "rootDir": "./src" /* Specify the root folder within your source files. */,
+        "moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
+
+        /* Emit */
+        "declaration": true /* Generate .d.ts files from TypeScript and JavaScript files in your project. */,
+        "sourceMap": true /* Create source map files for emitted JavaScript files. */,
+        "outDir": "./dist" /* Specify an output folder for all emitted files. */,
+        "removeComments": true /* Disable emitting comments. */,
+        "noEmitOnError": true /* Disable emitting files if any type checking errors are reported. */,
+
+        /* Interop Constraints */
+        "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */,
+        "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+        /* Type Checking */
+        "strict": true /* Enable all strict type-checking options. */ /* Ensure 'use strict' is always emitted. */,
+        "noUnusedLocals": true /* Enable error reporting when a local variables aren't read. */,
+        "noUnusedParameters": true /* Raise an error when a function parameter isn't read */,
+        "noImplicitReturns": true /* Enable error reporting for codepaths that do not explicitly return in a function. */,
+        "skipLibCheck": true /* Skip type checking all .d.ts files. */
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "src/**/*.test.ts", "src/**/__tests__/**/*.test.ts"]
+}
