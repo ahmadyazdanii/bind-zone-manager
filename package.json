@@ -10,7 +10,7 @@
         "after:build": "gulp afterBuild",
         "lint": "eslint src/**/*.ts",
         "lint:fix": "eslint src/**/*.ts --fix",
-        "test": "jest"
+        "test": "jest --passWithNoTests"
     },
     "husky": {
         "hooks": {

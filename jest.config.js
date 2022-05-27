@@ -17,10 +17,10 @@ module.exports = {
     moduleFileExtensions: ["js", "ts"],
 
     // The root directory that Jest should scan for tests and modules within
-    rootDir: "./src",
+    rootDir: "./tests",
 
     // The glob patterns Jest uses to detect test files
-    testMatch: ["**/__tests__/**/*.test.ts", "**/?(*.)+(spec|test).ts"],
+    testMatch: ["**/?(*.)+(spec|test).ts"],
 
     // A map from regular expressions to paths to transformers
     transform: {
